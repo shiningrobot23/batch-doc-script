@@ -7,7 +7,7 @@ if "%yes_or_no%"=="Y" (
     cls
     echo 67!
     :loop
-    echo 67!
+    echo Hey, it's me, it's 'Serity'
     timeout /t 1 >nul
     goto loop
 ) else (
