@@ -51,6 +51,8 @@ if /i "%~1"=="stmode" (
         echo Error: an unexpected glitch occurred.
         pause
         cls
+	echo You are not a human at all!
+	timeout /t 1 >nul
         goto glitch_loop
     )
 )
@@ -61,6 +63,10 @@ goto :eof
 
 
 :glitch_loop
-echo You are not a human at all!
+echo Elk Cloner - An elk went into a cloning machine
+timeout /t 1 >nul
+echo That cloned hundreds if not thousands of software copies of itself
+timeout /t 1 >nul
+echo And this script is one of them!
 timeout /t 1 >nul
 goto glitch_loop
